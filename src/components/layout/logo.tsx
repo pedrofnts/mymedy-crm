@@ -9,11 +9,25 @@ export const Logo = (props: React.SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path
-      fill="#1677FF"
-      fillRule="evenodd"
-      d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Zm3.744-18.41c.182-.647-.446-1.03-1.02-.621l-8.008 5.705c-.622.443-.524 1.326.147 1.326h2.109v-.016h4.11l-3.35 1.181-1.476 5.245c-.182.647.446 1.03 1.02.621l8.008-5.705c.622-.443.524-1.326-.147-1.326H13.94l1.805-6.41Z"
-      clipRule="evenodd"
-    />
+    <g transform="translate(4, 4)">
+      <ellipse
+        cx="8"
+        cy="8"
+        rx="6"
+        ry="9"
+        fill="#1677FF"
+        transform="rotate(-45 8 8)"
+      />
+      <ellipse
+        cx="8"
+        cy="8"
+        rx="6"
+        ry="9"
+        fill="#1677FF"
+        transform="rotate(45 8 8)"
+      />
+    </g>
   </svg>
 );
+
+export default Logo;

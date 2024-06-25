@@ -69,7 +69,7 @@ export const CompanyInfoForm = () => {
   const loading = queryResult?.isLoading;
 
   return (
-    <Card
+    (<Card
       title={
         <Space size={15}>
           {/* @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66 */}
@@ -245,7 +245,7 @@ export const CompanyInfoForm = () => {
           }}
         />
       </SingleElementForm>
-    </Card>
+    </Card>)
   );
 };
 

@@ -125,7 +125,7 @@ export const DashboardDealsChart: React.FC = () => {
       extra={
         // @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66
         <Button onClick={() => list("deals")} icon={<RightCircleOutlined />}>
-          See sales pipeline
+          Ver pipeline de vendas
         </Button>
       }
     >

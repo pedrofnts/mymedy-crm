@@ -156,7 +156,7 @@ const variants: {
         />
       </IconWrapper>
     ),
-    title: "Number of companies",
+    title: "Número de leads",
     data: [
       {
         index: "1",
@@ -194,7 +194,7 @@ const variants: {
         />
       </IconWrapper>
     ),
-    title: "Number of contacts",
+    title: "Número de contatos",
     data: [
       {
         index: "1",
@@ -236,7 +236,7 @@ const variants: {
         />
       </IconWrapper>
     ),
-    title: "Total deals in pipeline",
+    title: "Negócios no Pipeline",
     data: [
       {
         index: "1",
